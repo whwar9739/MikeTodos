@@ -10,7 +10,7 @@ import { TodoService, ITodo } from './todo.service';
   providers: [TodoService]
 })
 export class TodoComponent implements OnInit {
-  public todos: any;
+  public todos: ITodo;
   public activeTasks: number;
   public newTodo: string;
   public path: string;
